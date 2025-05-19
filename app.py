@@ -3,6 +3,8 @@ from streamlit_drawable_canvas import st_canvas
 from PIL import Image
 import io
 import base64
+import os
+os.system('pip install --upgrade pip')
 
 # Konfigurasi layout
 st.set_page_config(layout="wide")
